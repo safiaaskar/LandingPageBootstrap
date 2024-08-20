@@ -1,0 +1,36 @@
+:root {
+    --main-bg: #3b226d;
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar,
+#home,
+#about .btn,
+#services,
+footer {
+background-color: var(--main-bg);
+}
+#home {
+    padding: 17em 0  100px;
+}
+#about,
+#services,
+#contact {
+    padding: 8em 0;
+}
+#about p {
+    font-size: 28px;
+    font-weight: 300;
+}
+#about .btn {
+    padding: 15px 25px;
+}
+.scrollUpBtn {
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    background:#523194;
+    transition: opacity 0.75s ease-in-out;
+}
